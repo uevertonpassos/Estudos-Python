@@ -1,2 +1,3 @@
 print('Olá, mundo!')
-#recomeçando no python
+# recomeçando no python
+# absolutamente do zero
