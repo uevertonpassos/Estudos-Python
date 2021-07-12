@@ -1,0 +1,8 @@
+dado = input('Digite algo: ')
+print('O tipo primitivo de {} é {}.'.format(dado, type(dado)))
+print(dado.isalnum())
+print(dado.isalpha())
+print(dado.islower())
+print(dado.isnumeric())
+print(dado.istitle())
+print(dado.isupper())
