@@ -1,0 +1,6 @@
+# Tocando mp3
+from pygame import mixer
+mixer.init()
+mixer.music.load('ex021.mp3')
+mixer.music.play()
+x = input('Tocando... pressione enter para parar!')
