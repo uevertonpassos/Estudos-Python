@@ -10,3 +10,4 @@ print('O cpf correto é: 824{}176{}070{}18'.format('.','.', '-'))
 # Resposta correta
 print('O cpf correto é:','824', '176', '070',  sep='.', end='-')
 print('18')
+print("Perfeito!")
