@@ -1,3 +1,5 @@
+'''TIPOS PRIMITIVOS'''
+
 # int - para números inteiros ex: 7, -4, 0, 9875
 # float - para números flutuantes ex: 4.5, 0.076, -15.645, 7.0
 # bool - para números booleanos ex: True, False
@@ -15,4 +17,4 @@ print(25.0, type(int(25.0))) # transformando float em int
 print(1.63, type(1.63))
 print('1.63', type(float('1.63')))# transformando str em float
 # É maior de idade: bool
-print(25, 25 > 18) # testando se é ou não verdadeiro que o numero é maior(TRUE)
+print(25 > 18, type(25 > 18)) # testando se é ou não verdadeiro que o numero é maior(TRUE)

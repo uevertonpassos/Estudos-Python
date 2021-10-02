@@ -1,3 +1,5 @@
+'''COMANDO PRINT'''
+
 # Tentando separar os numeros de um cpf corretamente
 # cpf: 824.176.070-18
 
