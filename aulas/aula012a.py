@@ -10,8 +10,3 @@ if num.isdigit():
         print("Ímpar")
 else:
     print("Entrada inválida")
-
-
-   
-
-
