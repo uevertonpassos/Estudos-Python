@@ -2,12 +2,15 @@
 
 # perguntar a hora e exibir respostas diferentes para dia, tarde e noite
 
-hora = int(input("Digite que horas são: "))
-if hora >= 0 and hora <= 11:
-    print("Bom dia!")
-elif hora >= 12 and hora<=17:
-    print ("Boa tarde!")
-elif hora >= 18 and hora <= 23:
-    print("Boa noite!")
-else:
-    print("Não é uma hora válida!")
+horario = input("Digite uma hora entre 0 e 23: ")
+if horario.isdigit():
+    horario = int(horario)
+    if horario < 0 or horario > 23:
+        print("O horário deve estar entre 0 e 23!")
+    else:
+        if horario <= 11:
+            print("Bom dia!")
+        elif horario <= 17:
+            print("Boa tarde!")
+        else:
+            print('Boa noite!')
