@@ -11,7 +11,7 @@ while True:
     num2 = int(num2)
 
     if operador == "+":
-        print(f"O resultado da soma é: {num1 + num2} ")
+        print(f"O resultado da soma é: {num1 + num2}")
     elif operador == "-":
         print(f"O resultado da subtração é: {num1 - num2}")
     elif operador == "/":
@@ -21,6 +21,7 @@ while True:
     else:
         print("Operador inválido!")
     
-    sair = input("Você deseja sair? [s]im ou [n]ão: ")  
+    sair = input("Você deseja sair? [s]im ou [n]ão: ")
     if sair == "s":
         break
+    
