@@ -2,7 +2,7 @@
 #  While é usado para repetição, quer dizer que "enquanto" alguma coisa for x, repita esta ação, exemplo: 
 
 x = 0
-while x < 10:
+while x <= 10:
     print(x)
     x = x + 1
 print("Acabou aqui")
@@ -17,7 +17,7 @@ while y < 10:
     y = y + 1
 print("Acabou aqui: ")
 
-# O código só irá executar até a linha 17 e pular direto para a 21
+# O código só irá executar até a linha 15 e pular direto para a 18
 #  Também pode-se usar a palavra "break" para encerrar o loop do while, exemplo:
 
 b = 0
