@@ -29,7 +29,7 @@ while b < 10:
     b = b + 1
 print("acabou aqui")
 
-# o while será quebrado assi mque o valor de b for igual a 3 e pulará direto para o print 
+# o while será quebrado assim que o valor de b for igual a 3 e pulará direto para o último print 
 
 
 
