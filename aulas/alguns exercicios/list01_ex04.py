@@ -17,3 +17,4 @@ elif esc == "RE":
 else:
     print('Você sabe o que ta fazendo?')
 
+
