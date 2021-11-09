@@ -6,3 +6,4 @@ num4 = int(input('Digite o quarto valor: '))
 media = (num1 + num2 + num3 + num4)/4
 desv = [num1, num2, num3, num4]
 print(f"A Média é {media} e o Desvio {statistics.stdev(desv):.2f} ")
+
