@@ -5,3 +5,4 @@ aux = B
 B = A
 A = aux
 print(f'A vale {A} e B vale {B}')
+
