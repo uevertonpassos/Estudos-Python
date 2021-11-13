@@ -11,3 +11,5 @@ while contador <= 10:
     contador += 1
 else:
     print("Cheguei no Else")
+
+#  se eu não quebrar o laço, o contador e o acumulador continuam valendo até que o laço se torne falso e então pule para o else
