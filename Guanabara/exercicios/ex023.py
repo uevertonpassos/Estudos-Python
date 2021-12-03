@@ -1,7 +1,12 @@
-num = input('Digite o numero: ')
-print(f"Unidade: {num[3]}")
-print(f"Dezena: {num[2]}")
-print(f"Centena {num[1]}")
-print(f'Milhar: {num[0]}')
+num = int(input('Digite o numero: '))
+u = num //1 %10
+d = num //10 %10
+c = num //100 %10
+m = num //1000 %10
+print(f"Unidade: {u}")
+print(f"Dezena: {d}")
+print(f"Centena {c}")
+print(f'Milhar: {m}')
 
 print("yay!")
+
