@@ -1,3 +1,5 @@
+#  Calculando a razão de uma PA!
+
 elemento  = int(input('Digite o elemento da PA: '))
 razao = int(input('Digite a razão da PA: '))
 decimo = elemento + (10 -1) * razao
