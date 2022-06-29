@@ -1,3 +1,4 @@
+from sre_parse import ESCAPES
 from tkinter.constants import NUMERIC
 from PySimpleGUI import PySimpleGUI as sg
 
