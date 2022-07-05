@@ -10,3 +10,4 @@ while True:
         compor += frase[contador]
         contador += 1
         print(compor)
+        
