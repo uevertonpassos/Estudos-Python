@@ -1,7 +1,6 @@
 while True:
     frase = input('Digite a frase: ')
 
-
     tamanho_frase = len(frase)
     contador = 0
     compor = ''
@@ -10,4 +9,7 @@ while True:
         compor += frase[contador]
         contador += 1
         print(compor)
-        
+
+    for i in range(len(frase), 0, -1):
+        print(frase[0:i])
+    
