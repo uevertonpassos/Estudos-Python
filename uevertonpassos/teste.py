@@ -1,5 +1,12 @@
-from time import sleep  
-for c in range(10, 0, -1):
-    print(c)
-    sleep(1)
-print('FELIZ ANO NOVO!!!')
+while True:
+    frase = input('Digite a frase: ')
+
+
+    tamanho_frase = len(frase)
+    contador = 0
+    compor = ''
+
+    while contador < tamanho_frase:
+        compor += frase[contador]
+        contador += 1
+        print(compor)
