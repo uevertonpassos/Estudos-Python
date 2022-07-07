@@ -13,3 +13,5 @@ while True:
     for i in range(len(frase), 0, -1):
         print(frase[0:i])
     
+    # Monta o COMPOR e o DECOMPOR
+    
