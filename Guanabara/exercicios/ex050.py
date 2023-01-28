@@ -1,7 +1,7 @@
 soma = 0
 cont = 0
 for par in range(1, 7):
-    num = int(input('Digite um numero: '))
+    num = int(input(f'Digite o {par}° numero: '))
     if num % 2 == 0:
         soma += num
         cont += 1

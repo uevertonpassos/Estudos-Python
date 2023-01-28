@@ -9,4 +9,4 @@ for c in range(1, num + 1):
 if total == 2:
     print(f'esse número é primo!')
 else:
-    print(f'esse número não é primo')
+    print(f'esse número não é primo') 
