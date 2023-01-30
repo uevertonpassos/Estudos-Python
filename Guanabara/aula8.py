@@ -1,4 +1,8 @@
-import emoji
-
-print(emoji.emojize('Olá, mundo! :sunglasses:', use_aliases=True))
-#teste
+print("=//==//===//==//===//==//==")
+print('')
+print("        ESCOLHA")
+print('''   [1] Cara [2] Coroa''')
+print('')
+print("=//==//===//==//===//==//==")
+print('')
+num = int(input("Digite a sua escolha: "))
