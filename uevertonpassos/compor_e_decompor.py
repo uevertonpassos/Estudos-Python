@@ -14,4 +14,4 @@ while True:
         print(frase[0:i])
     
     # Monta o COMPOR e o DECOMPOR
-    
+        
