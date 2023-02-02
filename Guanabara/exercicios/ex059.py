@@ -6,12 +6,14 @@ while True:
     multi= numUm * numDois
 
     print('''
+    ==//====//====//====//====//==
     Escolha a operação a seguir: 
     [1] Somar
     [2] Multiplicar
     [3] Maior
     [4] Novos número
     [5] Sair do programa
+    ==//====//====//====//====//==
     ''')
     resposta  = input("Digite a sua escolha: ")
     if resposta == "1":
@@ -31,6 +33,7 @@ while True:
         print("Certo, entre com valores novos ")
         print('')
     elif resposta == "5":
+        print("Fim do programa, volte sempre!")
         break
     
 
