@@ -4,7 +4,6 @@ anoAtual = date.today().year
 maiores = 0
 mulheresMenores = 0
 homensCadastrados = 0
-sair = ""
 
 
 while True:
