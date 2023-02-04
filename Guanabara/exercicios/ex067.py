@@ -7,6 +7,6 @@ while True:
             break
     for tab in range(0, 11):
          print(f'{num} x {tab} = {num * tab}')
-    print('')
+    print('')   
          
                 
