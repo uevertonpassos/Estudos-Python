@@ -1,19 +1,22 @@
 from random import randint
 
 count = 0
-while True:
+while count < 3:
     jogada = randint(0, 10)
+    num = int(input('Digite um número: '))
     escolha = str(input('par ou ímpar? [P/I]: ')).upper()
-    num = int(input('Digite sua jogada: '))
-    calc = num + jogada 
-    if escolha == "P" and calc % 2 == 0:
-        print(f'Parabéns, você venceu! você jogou: {num} e o computador jogou: {jogada}')
-        count += 1
-    elif escolha == "I" and calc % 2 == 1:
-        print(f'Parabéns, você venceu! você jogou: {num} e o computador jogou: {jogada}')
-        count += 1
+    if (num + jogada) % 2 == 0:
+        resultado = "Par"
     else:
-        print(f'Você perdeu! você jogou: {num} e o computador jogou: {jogada}')
+        resultado = "Ímpar"
+    print("Você escolheu", num, "e a máquina escolheu", jogada, "Resultado:", resultado)
+    if escolha == "P" and resultado == "Par":
+        print("Parabéns você ganhou!")
+    elif escolha == "I" and resultado == "Ímpar":
+        print("Parabéns você ganhou!")
+    else:
+        print("Você perdeu!")
+        count += 1
+    if count == 3:
+        print("Você atingiu o limite de tentativas. Fim de jogo.")
         break
-
-print(f'Fim de jogo! você jogou {count} vezes')

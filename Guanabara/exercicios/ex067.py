@@ -9,4 +9,4 @@ while True:
          print(f'{num} x {tab} = {num * tab}')
     print('')
          
-         
+                
