@@ -1,4 +1,5 @@
 '''
+[DESC GERAL]
 criar uma interface que receba nome e  notas dos alunos
 e que encaminhe para uma tabela de excel calculando a média
 
@@ -15,6 +16,8 @@ de uma escola e mais de uma sala de aula
 
 
 o programa deve reconhecer se o nome do aluno já foi digitado e  perguntar de qual avaliação é aquela nota, assim pode posicionala no local certo
+
+É interessante gerar lista de aprovados e reprovados
 
 
 [NOMES?]
