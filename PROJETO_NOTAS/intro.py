@@ -19,11 +19,16 @@ o programa deve reconhecer se o nome do aluno já foi digitado e  perguntar de q
 
 É interessante gerar lista de aprovados e reprovados
 
+pensar em como a interface pode ser útil para o usuário, UX/UI?
+
 
 [NOMES?]
 
 ClassTable
 
 Class Coordenate
+
+
+
 
 '''
