@@ -19,3 +19,5 @@ print(f"Pares: {list_par}")
 print(f"Ímpares: {list_impar}")
 
 
+
+
