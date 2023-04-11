@@ -17,3 +17,5 @@ for i in range(20):
 print(f"Números: {lista_inteira}")
 print(f"Pares: {list_par}")
 print(f"Ímpares: {list_impar}")
+
+
