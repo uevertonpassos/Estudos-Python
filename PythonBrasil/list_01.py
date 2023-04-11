@@ -10,5 +10,5 @@ while count <= 5:
     
 print("")
 print("Thank you! This is the list of numbers: ")
-print(list_of_numbers)
+print(list_of_numbers) 
 
