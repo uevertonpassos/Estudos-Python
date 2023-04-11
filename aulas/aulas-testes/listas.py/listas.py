@@ -14,3 +14,10 @@ contador = 0
 for nome in lista_nomes:
     print(contador, nome)
     contador +=1
+
+# posso usar enumerate também
+
+lista_nomes = ['Maria', 'Helena', 'Luiz']
+
+for nome in enumerate(lista_nomes):
+    print(nome)
