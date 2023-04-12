@@ -15,3 +15,6 @@ print("As consoantes encontradas foram:")
 
 for consoante in lista_consoantes:
     print(consoante)
+
+
+    #aprendi a usar lista dentro de listras hoje 
