@@ -18,3 +18,5 @@ for consoante in lista_consoantes:
 
 
     #aprendi a usar lista dentro de listras hoje 
+
+    # ave
