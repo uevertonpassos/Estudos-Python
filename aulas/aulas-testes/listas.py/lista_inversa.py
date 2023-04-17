@@ -10,3 +10,6 @@ while count <=9:
 print('')
 print("Aqui estão os numeros digitados em ordem inversa: ")
 print(list_of_nembers[::-1])
+
+
+#FATIAMENTO DE LISTINHAS HMMM QUE DELICIA
