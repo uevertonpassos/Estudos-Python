@@ -1,9 +1,10 @@
-def imprimir_padrao(n):
-    for i in range(1, n + 1):
-        linha = ''
-        for j in range(i):
-            linha += str(i) + ' '
-        print(linha)
+def soma(numUm, numDois):
+    soma = numUm + numDois
+    return soma
 
-n = int(input('Digite um número: '))
-imprimir_padrao(n)
+
+numUm = int(input("Digite um valor: "))
+numDois = int(input("Digite outro valor: "))
+
+print(f"A soma entre, {numUm} e {numDois} é:{soma(numUm, numDois)} ")
+
