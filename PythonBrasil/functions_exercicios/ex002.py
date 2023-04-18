@@ -17,7 +17,6 @@ def palavraMaior():
             return
         else:
             print("Digite algo válido")
-            return
 
 palavraMaior()
 print(f"Aqui está a lista das palavras: ")
