@@ -10,9 +10,7 @@ def palavraMaior():
         if pergunta == "s":
             adicionar_palavra = input("Digite a palavra: ")
             palavras.append(adicionar_palavra)
-
-            for i in palavras:
-                if len(adicionar_palavra) > len(maior):
+            if len(adicionar_palavra) > len(maior):
                     maior = adicionar_palavra
         elif pergunta == "n":
             print("Saindo")
@@ -24,5 +22,4 @@ def palavraMaior():
 palavraMaior()
 print(f"Aqui está a lista das palavras: ")
 print(palavras)
-print("")
 print(f"A maior palavra será: {maior}")
