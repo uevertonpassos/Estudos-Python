@@ -14,6 +14,6 @@ print(f'O número 9 apareceu {minha_tupla.count(9)} vezes')
 if 3 in minha_tupla:
     print(f'O primeiro número 3 apareceu em {minha_tupla.index(3)}')
 else:
-    pass
+    print('O valor  3 não apareceu em nenhuma posição')
 print(f'Numeros pares: {lista_par}')
 
