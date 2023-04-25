@@ -1,14 +1,16 @@
 
 valores = []
 maior = 0
-menor = 999
+menor = 0
 for n in range(0, 5):
-    numero = int(input("Digite um valor: "))
-    if numero >= maior:
-        maior = numero
-    elif numero <= menor:
-        menor = numero
-    valores.append(numero,)
+    valores.append(int(input("Digite um valor: ")))
+    if n == 0:
+        maior = menor = valores[n]
+    else:
+        if valores[n] > maior:
+            maior = valores[n]
+        if valores[n]< menor:
+            menor = valores[n]
     
     
         
