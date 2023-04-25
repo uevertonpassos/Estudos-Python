@@ -13,5 +13,5 @@ for n in range(0, 5):
     
         
 print(f'a lista digitada foi: {valores}')
-print(f'o maior numero foi {maior}')
-print(f'o menor numero foi: {menor}')
+print(f'o maior numero foi : {maior} e apareceu na posição: {valores.index(maior)}')
+print(f'o menor numero foi: {menor} e apareceu na posição: {valores.index(menor)}')
