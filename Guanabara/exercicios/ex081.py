@@ -14,3 +14,6 @@ while True:
         else:
             print('O número 5 não apareceu')
         
+
+
+#corrigido
