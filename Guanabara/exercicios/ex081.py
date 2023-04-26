@@ -13,4 +13,4 @@ while True:
             print('O numero 5 foi colocado na lista')
         else:
             print('O número 5 não apareceu')
-        break
+        
