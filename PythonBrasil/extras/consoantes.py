@@ -11,3 +11,4 @@ for i in range(0,10):
 print(f"teremos {len(consoantes)} consoantes")
 print(consoantes)
 
+#parei aqui?
