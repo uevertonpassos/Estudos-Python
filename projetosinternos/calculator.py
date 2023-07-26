@@ -4,7 +4,7 @@ def calculate():
     - para subtração
     * para multiplicação
     / para divisão
-    Informequal você deseja utilizar: ''')
+    Informe qual você deseja utilizar: ''')
     num1 = int(input('Digite um valor: '))
     num2 = int(input('Digite outro valor: '))
     if operation == '+':
@@ -26,7 +26,7 @@ def calculate():
 
 def again():
     calc_again = input('''Você deseja calcular novamente?
-    Se sim, digite S, se não, digite N: ''')
+    Se sim, digite S, se não, digite N: ''').upper()
     if calc_again == 'S':
         calculate()
     elif calc_again == 'N':
