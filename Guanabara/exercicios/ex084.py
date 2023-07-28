@@ -4,6 +4,7 @@
 # b) uma listagem com as pessoas mais pesadas
 # c) uma listagem com pessoas mais leves.
 
+contagem = []
 mais_pesadas = []
 mais_leves = []
 
@@ -12,7 +13,8 @@ while True:
     peso = float(input('Digite o peso da pessoa: '))
     sair = input("Digite 0 para sair ou 1 para continuar: ")
 
-    
+    contagem.append(nome)
+
     if peso >= 100:
         mais_pesadas.append(nome)
         mais_pesadas.append(peso)
@@ -21,6 +23,8 @@ while True:
         mais_leves.append(peso)
     if sair == "0":
         break
+
+print(f"Foram cadastradas {len(contagem)} pessoas")
 print("As pessoas mais pesadas são: ")
 print(mais_pesadas)
 print("As pessoas mais leves são: ")
