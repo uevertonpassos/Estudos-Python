@@ -12,6 +12,8 @@ while True:
     nome = str(input("Digite o nome da pessoa: "))
     peso = float(input('Digite o peso da pessoa: '))
     sair = input("Digite 0 para sair ou 1 para continuar: ")
+    if sair == "0":
+        break
 
     contagem.append(nome)
 
@@ -21,8 +23,7 @@ while True:
     else:
         mais_leves.append(nome)
         mais_leves.append(peso)
-    if sair == "0":
-        break
+    
 
 print(f"Foram cadastradas {len(contagem)} pessoas")
 print("As pessoas mais pesadas são: ")
