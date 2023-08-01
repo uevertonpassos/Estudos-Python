@@ -16,7 +16,7 @@ while True:
     if sair == "0":
         break
 
-
+#eu sou um idiota
 num_pessoas = len(pessoas)
 
 
