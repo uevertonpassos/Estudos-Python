@@ -13,7 +13,7 @@ while True:
     if number == 00:
         break
 
-resultado = sum(soma)
+resultado = sum(soma)1
 print(f'A soma de todos os numeros da lista é: {resultado}')
 
 
