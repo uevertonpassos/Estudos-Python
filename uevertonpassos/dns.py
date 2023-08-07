@@ -80,3 +80,5 @@ if __name__ == "__main__":
 
     # Chama a função para adicionar o aplicativo de inicialização
     adicionar_aplicativo_inicializacao()
+
+#PODE SUBIR
