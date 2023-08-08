@@ -11,7 +11,7 @@ def main():
     recognizer = sr.Recognizer()
 
     with sr.Microphone() as source:
-        print("Aguardando o comando 'AGATHA'...")
+        print("Aguardando o comando 'DARK'...")
         recognizer.adjust_for_ambient_noise(source)
         
         while True:
@@ -21,7 +21,7 @@ def main():
                 recognized_text = recognizer.recognize_google(audio).lower()
                 print("Comando detectado:", recognized_text)
                 
-                if "agatha" in recognized_text:
+                if "dark" in recognized_text:
                     if "open the terminal" in recognized_text:
                         execute_command("start cmd")  
                     
