@@ -6,6 +6,13 @@
       "name": "teste",
       "request": "launch",
       "mainClass": "teste",
+      "projectName": "Estudos-Python_a5b19c3c"
+    },
+    {
+      "type": "java",
+      "name": "teste",
+      "request": "launch",
+      "mainClass": "teste",
       "projectName": "Estudos-Python_47c2cd12"
     },
     {
