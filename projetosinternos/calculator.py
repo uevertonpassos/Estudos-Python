@@ -4,7 +4,8 @@ def calculate():
     - para subtração
     * para multiplicação
     / para divisão
-    Informe qual você deseja utilizar: ''')
+                      
+    Informe qual você deseja utilizar => ''')
     num1 = int(input('Digite um valor: '))
     num2 = int(input('Digite outro valor: '))
     if operation == '+':
