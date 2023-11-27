@@ -47,3 +47,4 @@ while True:
     else:
         print("Opção inválida. Por favor, digite S ou N.")
         
+        

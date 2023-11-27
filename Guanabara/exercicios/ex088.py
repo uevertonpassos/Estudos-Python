@@ -16,3 +16,4 @@ while True:
             print(f"Jogo: {palpites}")
     if cont == quantJogos:
         break
+    
